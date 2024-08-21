@@ -1,22 +1,20 @@
+import './index.css'
 
-import About from './components/About/About';
-import Cars from './components/Cars/Cars';
-import Contact from './components/Contact/Contact';
-import Main from './components/Main/Main';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
+import ProductPage from './components/ProductPage'
+
 
 
 function App() {
   return (
-    <div className=''>
+    <div className='flex-col flex items-center justify-center w-full h-full'>
 
-      <Header />
-      <Main />
-      <About />
-      <Cars />
-      <Contact />
-      <Footer />
+    <Navbar />
+    <Main />
+    <ProductPage />
+    <Footer />
 
     </div>
   );

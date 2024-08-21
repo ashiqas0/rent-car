@@ -1,41 +1,41 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/App/**/*.{js,ts,jsx,tsx,mdx}',
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+
+    // Or if using `src` directory: 
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
 
-    cotainer: {
+    container: {
       padding: {
-        DEFAULT: '15PX',
+        DEFAULT: '2pX',
       },
     },
 
     screens: {
-      sm: "640px",
+      sm: "480px",
       md: "768px",
       lg: "960px",
       xl: "1200px",
+      xxl: "1400px",
     },
 
     extend: {
-      colors: {
-        "primary":'#010851',
-        "secondary":'#9A7AF1',
-        "tertiary":'#707070',
-        "pink":'#EE9AE5',
-        
-      },
+      backgroundColor: {
+        theme: 'var(--color-theme)',
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
 
-      backgroundImage: {
-        site: '',
-        about: '',
+      },
+      colors: {
+        text: "var(--color-text)",
+        bordar: "var(--color-border)"
       },
     },
-
-
   },
   plugins: [],
 }
