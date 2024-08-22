@@ -1,81 +1,83 @@
 
-import Sunny from '../images/carImages/nissan.jpeg'
-import Micra from '../images/carImages/micra.jpeg'
+import SunnyNew from '../images/carImages/SunnyNew.jpg'
+import Sunny from '../images/carImages/Sunny.jpg'
 
-import Swift from '../images/carImages/swift.jpeg'
-import Alto from '../images/carImages/alto.jpeg'
-import Beleno from '../images/carImages/beleno.jpeg'
-import Ertiga from '../images/carImages/ertiga.jpeg'
+import AttrageSilver from '../images/carImages/AttrageSilver.jpg'
+import AttrageWhite from '../images/carImages/AttrageWhite.jpg'
+import Mirage from '../images/carImages/Mirage.jpg'
 
-import Fortuner from '../images/carImages/fortuner.jpeg'
-import Alphard from '../images/carImages/alphard.jpeg'
-import Hilux from '../images/carImages/hilux.jpeg'
-import Corolla from '../images/carImages/corolla.jpeg'
+import Rush from '../images/carImages/Rush.jpg'
+
+import Symbol from '../images/carImages/Symbol.jpg'
+
+import Jac from '../images/carImages/Jac.jpg'
+
 
 
 const CarDetails = [
+    //  =====    Nissan  =======
+    {
+        imgUrl: SunnyNew,
+        brandName: "Nissan",
+        carName: 'Sunny',
+        color: "",
+        year: "",
+    },
     {
         imgUrl: Sunny,
         brandName: "Nissan",
         carName: 'Sunny',
-        price: "$299",
+        color: "",
+        year: "",
+    },
+    // ====     Mistubishi =======
+    {
+        imgUrl: AttrageSilver,
+        brandName: "Mitsubishi",
+        carName: 'Attrage',
+        color: "",
+        year: "",
     },
     {
-        imgUrl: Micra,
-        brandName: "Nissan",
-        carName: 'Micra',
-        price: "$299",
+        imgUrl: AttrageWhite,
+        brandName: "Mitsubishi",
+        carName: 'Attrage',
+        color: "",
+        year: "",
+    },
+    {
+        imgUrl: Mirage,
+        brandName: "Mitsubishi",
+        carName: 'Mirage',
+        color: "",
+        year: "",
+    },
+    //  ====  Toyota  =======
+    {
+        imgUrl: Rush,
+        brandName: "Toyota",
+        carName: 'Rush',
+        color: "",
+        year: "",
+    },
+    //  ====  Jac  =======
+    {
+        imgUrl: Jac,
+        brandName: "Jac",
+        carName: 'Jac',
+        color: "",
+        year: "",
     },
 
+    //  ====  Renault  =======
     {
-        imgUrl: Swift,
-        brandName: "Maruti Suzuki",
-        carName: 'Swift',
-        price: "$299",
-    },
-    {
-        imgUrl: Alto,
-        brandName: "Maruti Suzuki",
-        carName: 'Alto',
-        price: "$299",
-    },
-    {
-        imgUrl: Beleno,
-        brandName: "Maruti Suzuki",
-        carName: 'Beleno',
-        price: "$299",
-    },
-    {
-        imgUrl: Ertiga,
-        brandName: "Maruti Suzuki",
-        carName: 'Ertiga',
-        price: "$299",
+        imgUrl: Symbol,
+        brandName: "Renault",
+        carName: 'Symbol',
+        color: "",
+        year: "",
     },
 
-    {
-        imgUrl: Fortuner,
-        brandName: "Toyota",
-        carName: 'Fortuner',
-        price: "$299",
-    },
-    {
-        imgUrl: Alphard,
-        brandName: "Toyota",
-        carName: 'Alphard',
-        price: "$299",
-    },
-    {
-        imgUrl: Hilux,
-        brandName: "Toyota",
-        carName: 'Hilux',
-        price: "$299",
-    },
-    {
-        imgUrl: Corolla,
-        brandName: "Toyota",
-        carName: 'Corolla',
-        price: "$299",
-    },
 
 ]
 export default CarDetails

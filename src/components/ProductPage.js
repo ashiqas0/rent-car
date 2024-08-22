@@ -28,9 +28,11 @@ const ProductPage = () => {
                     <div className=' space-x-7 flex flex-wrap items-center justify-center font-bold'>
 
                         <span className=' cursor-pointer' onClick={() => allProducts()} >ALL</span>
-                        <span className=' cursor-pointer' onClick={() => filterProducts("Toyota")} >Toyota</span>
-                        <span className=' cursor-pointer' onClick={() => filterProducts("Maruti Suzuki")} >Maruti Suzuki</span>
-                        <span className=' cursor-pointer' onClick={() => filterProducts("Nissan")} >Nissan</span>
+                        <span className=' cursor-pointer' onClick={() => filterProducts("Toyota")} >TOYOTA</span>
+                        <span className=' cursor-pointer' onClick={() => filterProducts("Mitsubishi")} >MITSUBISHI</span>
+                        <span className=' cursor-pointer' onClick={() => filterProducts("Nissan")} >NISSAN</span>
+                        <span className=' cursor-pointer' onClick={() => filterProducts("Jac")} >JAC</span>
+                        <span className=' cursor-pointer' onClick={() => filterProducts("Renault")} >RENAULT</span>
 
                     </div>
                 </div>
@@ -57,7 +59,8 @@ const ProductPage = () => {
 
 
                                     <div className=' flex justify-between px-2'>
-                                        <span className='text-lg text-orange-400'>{item.price}</span>
+                                        <span className='text-lg text-orange-400'>{item.color}</span>
+                                        <span className='text-lg text-orange-400'>{item.Year}</span>
                                     </div>
 
                                 </div>
